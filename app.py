@@ -28,8 +28,8 @@ st.title("Retail Company Sales Dashboard")
 # In[8]:
 
 
-url = "https://raw.githubusercontent.com/Mhuna91/Retail_Company_Sales_Data/main/Retail_Company_Sales_Data.xlsx"
-df = pd.read_excel(url, engine="openpyxl")
+file_path = "Retail_Company_Sales_Data.xlsx"
+df = pd.read_excel(file_path, engine="openpyxl")
 
 print(df.head())
 print(df.columns.tolist())
