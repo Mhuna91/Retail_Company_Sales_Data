@@ -28,7 +28,7 @@ st.title("Retail Company Sales Dashboard")
 # In[8]:
 
 
-file_path = r"C:\Users\HP\Desktop\ENDIP BIU\Retail_Company_Sales_Data.xlsx"
+file_path = "Retail_Company_Sales_Data.xlsx"
 df = pd.read_excel(file_path, engine="openpyxl")
 
 print(df.columns.tolist())
