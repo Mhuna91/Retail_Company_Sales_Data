@@ -31,7 +31,7 @@ st.title("Retail Company Sales Dashboard")
 url = "https://raw.githubusercontent.com/Mhuna91/Retail_Company_Sales_Data/main/Retail_Company_Sales_Data.xlsx"
 df = pd.read_excel(url, engine="openpyxl")
 
-
+print(df.head())
 print(df.columns.tolist())
 
 
